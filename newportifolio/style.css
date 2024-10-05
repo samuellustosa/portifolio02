@@ -1,0 +1,133 @@
+/* style.css */
+
+body {
+    background-color: #ffff;
+    font-size: 28px; /* Tamanho da fonte do corpo */
+    margin: 0; /* Remove a margem padrão */
+    font-family: "Days One", sans-serif /* Fonte geral */
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding-top: 8px;
+    display: flex;
+    justify-content: flex-end; /* Itens de navegação à direita */
+}
+
+li {
+    float: left; /* Itens em linha */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #6200EA; /* Efeito ao passar o mouse */
+    background-color: transparent;
+}
+
+.active {
+    border-radius: 10%;
+    padding-bottom: auto;
+    background-color: #6200EA;
+    color: white; /* Cor apenas no texto do item ativo */
+}
+
+.logo {
+    display: flex; /* Usando flexbox para alinhar a logo e o nome */
+    align-items: center; /* Centraliza verticalmente */
+    margin-right: auto; /* Empurra os itens do menu para a direita */
+}
+
+.logo-imagem {
+    width: 45px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 15%; /* Torna a imagem redonda */
+    margin-right: 10px; /* Espaçamento entre a logo e o nome */
+    margin-left: 10px;
+}
+
+.nome {
+    color: black; /* Cor do texto do nome */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    font-size: 17px; /* Ajusta o tamanho da fonte */
+}
+
+/* Header específico */
+.header {
+    display: flex; /* Usando flexbox para alinhamento */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Espaçamento entre itens */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #F5F5F5; /* Cor de fundo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding-top: 80px;
+    padding-bottom: 165px;
+}
+
+.imagem-esquerda {
+    width: 230px; /* Largura do círculo */
+    height: 230px; /* Altura do círculo, igual à largura */
+    border-radius: 50%; /* Faz a imagem ser um círculo */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre o espaço */
+}
+
+.imagem-direita {
+    width: 240px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.texto-central {
+    flex: 1; /* Ocupa espaço restante */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.2em; /* Tamanho da fonte */
+}
+
+.texto-central h1 {
+    color: #6200EA;
+    font-size: 60px;
+    letter-spacing: -3px;
+
+}
+
+.texto-central p {
+    color: #333333; /* Texto secundário em cinza escuro */
+    font-size: 20px;
+}
+
+
+.buttom-header {
+    padding-top: 50px;
+    font-size: 18px;
+    display: flex; /* Usando Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.buttom-header a {
+    background-color: #6200EA;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+
+.buttom-header a:hover {
+    color: #6200EA; /* Efeito ao passar o mouse */
+    background-color: transparent;
+}
